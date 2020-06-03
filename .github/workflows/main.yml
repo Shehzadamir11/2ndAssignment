@@ -38,5 +38,5 @@ jobs:
       run: npm install -g surge
     
     - name: depoly to surge
-      run: surge ./build proectreact.assignment2.3june ${{ secrets.SURGETOKEN }}
+      run: surge ./build proectreact.assignment2.sh ${{ secrets.SURGETOKEN }}
   
