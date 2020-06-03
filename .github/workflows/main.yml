@@ -32,8 +32,11 @@ jobs:
         cmd: install
     - name: Build React App
       run: yarn build
-    - name: Install Surge
-      run: npm install -globall surge
-    - name: Deoply to surge
-      run: surge ./build proectreact.assignment2.3june ${{secrets.SURGETOKEN}}
+    
+         
+    - name: install surge
+      run: npm install -g surge
+    
+    - name: depoly to surge
+      run: surge ./build proectreact.assignment2.3june ${{ secrets.SURGETOKEN }}
   
