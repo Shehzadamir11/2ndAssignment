@@ -2,7 +2,7 @@
 
 name: React App Deploy to Surge
 
-# Controls when the action will run. Triggers the workflow on push or pull request
+# Controls when the action will run. Triggers the workflow on push or pull requestmmmm
 # events but only for the master branch
 on:
   push:
